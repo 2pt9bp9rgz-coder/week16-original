@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Shippori Mincho", serif;
+  --font-sans: "Zen Kaku Gothic New", "Hiragino Sans", sans-serif;
+
+  --color-cream: #faf4ec;
+  --color-paper: #fffdf9;
+  --color-charcoal: #3b3530;
+  --color-muted: #8a8078;
+  --color-clay: #c97b5f;
+  --color-clay-dark: #b8674c;
+  --color-sage: #8fa07e;
+  --color-sage-dark: #71855f;
+  --color-sand: #efe4d2;
+  --color-rose: #d99a95;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
